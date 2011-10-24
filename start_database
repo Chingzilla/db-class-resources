@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Check if sqlite is installed
+hash sqlite3 2>&- || { echo >&2 "sqlite needs to be installed to work.  exiting"; exit 1; }
+
+sqlite3 dbclass.db
