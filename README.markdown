@@ -1,15 +1,20 @@
 # DB-class notes and resources #
-This is a collection of notes and resources ment to help fellow students with their studies in Standford's online [intro to database class](db-class.org)
+This is a collection of notes and resources ment to help fellow students with their studies in Standford's online [intro to database class](www.db-class.org)
 
 ## For an easy way to drop into into a SQL prompt with tables used in class##
 First download a copy of this directory
+
 <code>$ git://github.com/Chingzilla/db-class-resources.git</code>
+
+
 Then run this script
+
 <code>$ ./start_database
 
 ## If you simply want to run the SQLite database ##
 1. Download the [dbclass.db](https://github.com/Chingzilla/db-class-resources/raw/master/dbclass.db) file
 2. Start sqlite with the database
+   
    <code>$ sqlite3 dbclass.db</code>
 
 ## Helpfull resources ##
