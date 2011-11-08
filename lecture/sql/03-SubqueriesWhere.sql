@@ -148,6 +148,7 @@ where S1.GPA > S2.GPA;
   Highest GPA using ">= all"
 **************************************************************/
 
+/*** Please note that 'all' is not implemented in SQLite, use MySQL to run this***/
 select sName, GPA
 from Student
 where GPA >= all (select GPA from Student);
